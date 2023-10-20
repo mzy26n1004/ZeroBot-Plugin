@@ -1,4 +1,4 @@
-// 打包ZeroBot-Plugin主文件
+// 资源ZeroBot-Plugin主文件
 包主
 
 导入（
@@ -12,55 +12,55 @@
 	“弦”
 	“时间”
 
-	_ "github.com/FloatTech/ZeroBot-Plugin/console"    // 更改控制台属性
+	_ "github.com/FloatTech/ZeroBot-Plugin/console" // 更改控制台属性"github.com/FloatTech/ZeroBot-Plugin/console"     // 更改控制台属性
 
-	"github.com/FloatTech/ZeroBot-Plugin/kanban"    // 打印横幅
+	"github.com/FloatTech/ZeroBot-Plugin/kanban" // 打印横幅"github.com/FloatTech/ZeroBot-Plugin/kanban"     // 打印横幅
 
-	// --------- 以下插件通过前面加 // 注释、注释后面没有加载插件--------- //
-	// ---------------------- 插件优先级按顺序从高到低------------------ - ----- //
-	// //
-	// //
-	// //
-	// //
-	// //
-	// ---------------------------------------- 高优先级区---- ------------ ------------ //
-	// vvvvvvvvvvvvvvvvvvvvvvvv高优先级区vvvvvvvvvvvvvvvvvvvvvvvvv //
-	// vvvvvvvvvvvvvv高级区vvvvvvvvvvvvvv //
-	// vvvvvvv高级区vvvvvvv //
-	// vvvvvvvvvvvvvv //
-	// 呜呜呜 //
-
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/antiabuse"     // 违禁词
-
-	_“github . com/FloatTech/ZeroBot-Plugin/plugin/chat”  // 基础词库
-
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/sleepmanage"  //统计睡眠时间
-
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/atri"  // ATRI词库"github.com/FloatTech/ZeroBot-Plugin/plugin/atri" // ATRI词库
-
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/manager"  // 群管 "github.com/FloatTech/ZeroBot-Plugin/plugin/manager" // 群管
-
-	_ "github.com/FloatTech/zbputils/job"  // 定时指令触发"github.com/FloatTech/zbputils/job" // 定时指令触发
-
-	// ^^^^ //// ^^^^ //
-	// ^^^^^^^^^^^^^^^^ //// ^^^^^^^^^^^^^^ //
-	// ^^^^^^^高级区^^^^^^^ //// ^^^^^^^高级区^^^^^^^ //
-	// ^^^^^^^^^^^^^^^^高优先级区^^^^^^^^^^^^^^^^ //// ^^^^^^^^^^^ ^^^^高级区^^^^^^^^^^^^^^^ //
-	// ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^高级区^^^^^^^^^^^^^^^^^ ^ ^^^^^^^^^^^^^^ //// ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^高优先级区^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ //
-	// ---------------------------------------- 高优先级区---- ------------ ------------ //// ---------------------- ------高优先级区---------------------------------------- //
+	// --------- 以下插件通过前面加 // 注释、注释后面没有加载插件--------- //// --------- 以下插件通过前面加 // 注释、注释后面没有加载插件--------- //
+	// ---------------------- 插件优先级按顺序从高到低------------------ - - ----- //// ---------------------- 插件优先级按顺序从高到低------------------ - - ----- //
+	// //// //
+	// //// //
+	// //// //
+	// //// //
 	// //// // //
-	// //// // //
-	// //// // //
-	// //// // //
-	// //// // //
+	// ---------------------------------------- 高优先级区---- ------------ ------------ //// ---------------------- ------------------ 高优先级区---- ------------ ------------ //
+	// vvvvvvvvvvvvvvvvvvvvvv高优先级区vvvvvvvvvvvvvvvvvvvvvv //// vvvvvvvvvvvvvvvvvvvvv高优先级区vvvvvvvvvvvvvvvvvvvvvv //
+	// vvvvvvvvvvvvvv高级区vvvvvvvvvvvvv //// vvvvvvvvvvvvv高级区vvvvvvvvvvvvv //
+	// vvvvvvv 高级区vvvvvvv //// vvvvvvv 高级区vvvvvvv //
+	// vvvvvvvvvvvvvv //// vvvvvvvvvvvvvv //
+	// 呜呜呜 //// 呜呜呜 //
+
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/antiabuse"  // 违禁词"github.com/FloatTech/ZeroBot-Plugin/plugin/antiabuse" // 违禁词
+
+	_“github . com/FloatTech/ZeroBot-Plugin/plugin/chat”// 基础词库。com/FloatTech/ZeroBot-Plugin/plugin/chat”   // 基础词库
+
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/sleepmanage" //统计睡眠时间"github.com/FloatTech/ZeroBot-Plugin/plugin/sleepmanage" //统计睡眠时间
+
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/atri"  // ATRI词库"github.com/FloatTech/ZeroBot-Plugin/plugin/atri" // ATRI词库"github.com/FloatTech/ZeroBot- Plugin/plugin/atri" // ATRI词库"github.com/FloatTech/ZeroBot-Plugin/plugin/atri" // ATRI词库
+
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/manager"  // 群管 "github.com/FloatTech/ZeroBot-Plugin/plugin/manager" // 群管"github.com/FloatTech/ZeroBot-Plugin/ plugin/manager" // 群管 "github.com/FloatTech/ZeroBot-Plugin/plugin/manager" // 群管
+
+	_ "github.com/FloatTech/zbputils/job"  // 定时指令触发"github.com/FloatTech/zbputils/job" // 定时指令触发"github.com/FloatTech/zbputils/job" // 定时指令触发" github.com/FloatTech/zbputils/job" // 定时指令触发
+
+	// ^^^^ //// ^^^^ //// ^^^^ //// ^^^^ //
+	// ^^^^^^^^^^^^^^^^^^ //// ^^^^^^^^^^^^^^ //// ^^^^^^^^^^ ^^^^^^^ //// ^^^^^^^^^^^^^^ //
+	// ^^^^^^^高级区^^^^^^^ //// ^^^^^^^高级区^^^^^^^ //// ^^^^^^^^高级^区^^^^^^ //// ^^^^^^^高级区^^^^^^^ //
+	// ^^^^^^^^^^^^^^^^^^高级区^^^^^^^^^^^^^^^^^^ //// ^^^^^^^^^ ^ ^^^ ^^^^高级区^^^^^^^^^^^^^^^^^ //// ^^^^^^^^^^^^^^^^^高级区^^^^^^^^^^^^^^^^^ //// ^^^^^^^^^^^^ ^^^^高级区^^^^^^^^^^^^^^ ^^ //
+	// ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^高级区^^^^^^^^^^^^^^^ ^^^ ^^^^^^^^^^^^^^^ //// ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ ^^^高级区^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ //// ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^高级区^^^^^^^^^^^^^^^ ^^^ ^^^^^^^^^^^^^^^ //// ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ ^^^高级区^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ //
+	// ---------------------------------------- 高优先级区---- ------------ ------------ //// ---------------------- ------高级优先级区---------------------------------------------------- //// ---------------------------------------- 高优先级区---- ------------ ------------ //// ---------------------- ------高级优先级区---------------------------------------------------- //
+	// //// // // // //
+	// //// // // // //
+	// //// // // // //
+	// //// // // // //
+	// //// // // // //
 	// ----------------------------------------中优先级区---- ------------ ------------ //
-	// vvvvvvvvvvvvvvvvvvvvvvvvvv中优先级区vvvvvvvvvvvvvvvvvvvvvvvvvv //
+	// vvvvvvvvvvvvvvvvvvvvvvvvv中优先级区vvvvvvvvvvvvvvvvvvvvvvvvv //
 	// vvvvvvvvvvvvvv中优先级区vvvvvvvvvvvvvv //
 	// vvvvvvv中优先级区vvvvvvv //
 	// vvvvvvvvvvvvvv //
 	// 呜呜呜 //
 
-	_ “github。com/FloatTech/ZeroBot-Plugin/plugin/ahsai”             // ahsai tts
+	_ “github.com/FloatTech/ZeroBot-Plugin/plugin/ahsai” // ahsai tts// 阿赛 tts
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/aifalse" // 服务器监控"github.com/FloatTech/ZeroBot-Plugin/plugin/aifalse"          // 服务器监控
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/aipaint" // ai 绘图"github.com/FloatTech/ZeroBot-Plugin/plugin/aipaint"          // ai绘图
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/aiwife" // 随机老婆"github.com/FloatTech/ZeroBot-Plugin/plugin/aiwife"           // 随机老婆
